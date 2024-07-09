@@ -1,0 +1,55 @@
+{
+    "AS_Button_f41794d5e30a49f89e4ea3be5faab269": {
+        "id": "AS_Button_f41794d5e30a49f89e4ea3be5faab269",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmLogin",
+            "type": "forms",
+            "platform": "",
+            "KUID": "e7d2f333d0644119a6b3fccec47c3dcb"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM__be2195a5ff884fad9fa834d801a066a3",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "frmWelcome",
+            "formKUID": "a2286e6c5ed64e8a879b508e6fedbc44",
+            "projectName": "SampleIOS",
+            "mappings": {
+                "ME_Mapping_c271bd2d74384c1b81c841f43f0d353e": {
+                    "channel": "mobile",
+                    "id": "ME_Mapping_c271bd2d74384c1b81c841f43f0d353e",
+                    "type": "MAPPING",
+                    "callbackType": null,
+                    "rectified": true,
+                    "source": {
+                        "type": "Forms",
+                        "propertyName": "text",
+                        "propertyKey": "tbxUserName_text",
+                        "widgetId": "tbxUserName",
+                        "widgetPath": "this.view.tbxUserName",
+                        "widgetType": "TextField",
+                        "dataType": "string",
+                        "itemId": "frmLogin",
+                        "widgetKUID": "ab593b3b5b7c42a9a31a4bc92c756206",
+                        "itemKUID": "e7d2f333d0644119a6b3fccec47c3dcb",
+                        "forkedPlatform": "all"
+                    },
+                    "target": {
+                        "forkedPlatform": "all"
+                    }
+                }
+            },
+            "mappingsOrder": ["ME_Mapping_c271bd2d74384c1b81c841f43f0d353e"],
+            "enableMappingEditor": true,
+            "package": "",
+            "enableNavigationObj": true,
+            "navigationObj": "{\n    \"tbxUserName_text\": self.view.tbxUserName.text,\n    \"_meta_\": {\n        \"eventName\": \"onClick\",\n        \"widgetId\": \"btnInfo\"\n    }\n}",
+            "isCustomInput": false
+        }]
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "AS_Form_f4b6f686e2f44f6dbdfd393eec25c080": {
+        "id": "AS_Form_f4b6f686e2f44f6dbdfd393eec25c080",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmWelcome",
+            "type": "forms",
+            "platform": null,
+            "KUID": "a2286e6c5ed64e8a879b508e6fedbc44"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_i29ae63ac21143a083bd8ea408ba9e9e",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.view.lblWelcome.text=\"Welcome! \"+ eventobject.tbxUserName_text;",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}
